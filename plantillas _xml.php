@@ -11,12 +11,12 @@ public function index(Request $request){
   $Prefix = $invoice->code;
   $From = $office->invoice_code_from;
   $To = $office->invoice_code_to;
-  $companyNIT = '900711544';
+  $companyNIT = '900711000';
   $companyNITDV = '0';
-  $SoftwareID = 'feeb4367-88bb-400f-9dbb-0ee742608c3c';
+  $SoftwareID = 'feeb4367-8888-7777-9dbb-0ee742608c3c';
   $ClTec = $office->technical_key;
-  $pin = '48151';
-  $AuthorizationProviderID = '800197268';
+  $pin = '98888';
+  $AuthorizationProviderID = '800197111';
 
   $CustomizationID = '10';
   $ProfileExecutionID = '1';
